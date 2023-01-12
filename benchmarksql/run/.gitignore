@@ -1,0 +1,4 @@
+my_*
+*.log
+.jTPCC_run_seq.dat
+run/DICLUSTER/logs

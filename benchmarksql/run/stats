@@ -1,0 +1,26 @@
+# Benchmark Conf
+2 minutes
+10 warehouses
+10 terminals
+
+# LSD
+17:11:05,431 [Thread-0] INFO   jTPCC : Term-00, 
+17:11:05,431 [Thread-0] INFO   jTPCC : Term-00, 
+17:11:05,432 [Thread-0] INFO   jTPCC : Term-00, Measured tpmC (NewOrders) = 10399.05
+17:11:05,432 [Thread-0] INFO   jTPCC : Term-00, Measured tpmTOTAL = 23834.74
+17:11:05,432 [Thread-0] INFO   jTPCC : Term-00, Session Start     = 2020-10-27 17:09:05
+17:11:05,432 [Thread-0] INFO   jTPCC : Term-00, Session End       = 2020-10-27 17:11:05
+17:11:05,432 [Thread-0] INFO   jTPCC : Term-00, Transaction Count = 47682
+
+# POSTGRES
+17:17:28,565 [Thread-3] INFO   jTPCC : Term-00, 
+17:17:28,566 [Thread-3] INFO   jTPCC : Term-00, 
+17:17:28,566 [Thread-3] INFO   jTPCC : Term-00, Measured tpmC (NewOrders) = 10957.07
+17:17:28,566 [Thread-3] INFO   jTPCC : Term-00, Measured tpmTOTAL = 25432.88
+17:17:28,566 [Thread-3] INFO   jTPCC : Term-00, Session Start     = 2020-10-27 17:15:28
+17:17:28,566 [Thread-3] INFO   jTPCC : Term-00, Session End       = 2020-10-27 17:17:28
+17:17:28,566 [Thread-3] INFO   jTPCC : Term-00, Transaction Count = 50883
+
+# Comparisons
+tpmc loss = 558,02 = 5,1% overhead
+tpmTotal loss = 1598.14

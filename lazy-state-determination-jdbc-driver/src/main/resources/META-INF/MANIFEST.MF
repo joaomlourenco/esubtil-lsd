@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Main-Class: lsd.util.LSDJDBCMain
+Automatic-Module-Name: lsd.driver.jdbc
+Implementation-Vendor-Id: lsd
+Implementation-Version: 1.0
+Implementation-Title: LSD JDBC Driver
+Implementation-Vendor: Lazy State Determination Development Group
+Specification-Vendor: Oracle Corporation
+Specification-Title: JDBC
+Specification-Version: 4.2
